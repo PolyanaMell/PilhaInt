@@ -1,4 +1,4 @@
-package br.edu.fateczl.PolyanSilva.pilhaInt;
+package br.edu.fateczl.PolyanaSilva.pilhaInt;
 
 public class No {
 
