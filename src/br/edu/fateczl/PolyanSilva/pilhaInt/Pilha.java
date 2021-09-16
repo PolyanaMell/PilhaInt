@@ -1,4 +1,4 @@
-package br.edu.fateczl.PolyanSilva.pilhaInt;
+package br.edu.fateczl.PolyanaSilva.pilhaInt;
 
 public class Pilha {
 	
@@ -29,7 +29,7 @@ public class Pilha {
 	
 	public int pop() throws Exception {
 		if (isEmpty()) {
-			throw new Exception("N„o h· elementos para desempilhar");
+			throw new Exception("N√£o h√° elementos para desempilhar");
 		}
 		int valor = topo.dado;
 		topo = topo.proximo;
@@ -38,7 +38,7 @@ public class Pilha {
 	
 	public int top() throws Exception {
 		if (isEmpty()) {
-			throw new Exception("N„o h· elementos na pilha");
+			throw new Exception("N√£o h√° elementos na pilha");
 		}
 		int valor = topo.dado;
 		return valor;
